@@ -11,6 +11,7 @@ import (
 
 type AsciiBitmap []string
 
+// These values represent increasing levels of gray
 const gValueCharacters string = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 func main() {
