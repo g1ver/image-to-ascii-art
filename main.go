@@ -70,6 +70,7 @@ func grayscaleToCharacter(c color.Color) string {
 	return string(gValueCharacters[charIndex])
 }
 
+// Map values to different ratio
 func intMap(y, minIn, maxIn, minOut, maxOut int) int {
 	return (y-minIn)*(maxOut-minOut)/(maxIn-minOut) + minOut
 }
